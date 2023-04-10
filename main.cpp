@@ -133,7 +133,7 @@ int main(int argc, char *argv[]){
       iresult=i1+i2;
     } else if (strcmp(command, "sub")==0){
       iresult=i1-i2;
-      printf("[%s %d %d = %d ]\n",command,i1,i2,iresult);
+      
     } else if (strcmp(command, "mul")==0){
       iresult=i1*i2;
     } else if (strcmp(command, "div")==0){     
